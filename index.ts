@@ -1,8 +1,9 @@
 // Import stylesheets
 import './style.css';
+import 'node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
-const form: HTMLFormElement = document.querySelector('#defineform');
+const form: HTMLFormElement = document.querySelector('#defineform')!;
 
 
 form.onsubmit = () => {
